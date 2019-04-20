@@ -2,9 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework> 
-    <!-- InProcess host application on IIS (iisexpress.exe). VS studio use IIS to hosting -->
+    <!-- InProcess host application on IIS (iisexpress.exe or w3wp.exe). VS studio use IIS to hosting -->
     <!-- Kestrel is a cross-platform web server for asp.net core (uses dotnet.exe) -->
-    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <!-- OutOfProcess is a default hosting model-->
+    <AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>
     <RootNamespace>web_application</RootNamespace>
   </PropertyGroup>
 

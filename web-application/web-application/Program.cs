@@ -15,12 +15,12 @@ namespace web_application
         public static void Main(string[] args)
         {
             // asp.net core application initialy starts as a Console Application
-            // Entry Point
-            CreateWebHostBuilder(args).Build().Run();
+            // entry point
+            CreateWebHostBuilder(args).Build().Run(); // create abd run IWebHost
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-            WebHost.CreateDefaultBuilder(args) // creates a web-host
-                .UseStartup<Startup>();
+            WebHost.CreateDefaultBuilder(args) // creates a web-host (IWebHost is a object where application is deploying)
+                .UseStartup<Startup>(); // class in <> is a start class, where http-request processes
     }
 }
