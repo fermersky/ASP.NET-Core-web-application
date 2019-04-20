@@ -1,0 +1,14 @@
+C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\bin\Debug\netcoreapp2.2\web-application.dll
+C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\bin\Debug\netcoreapp2.2\web-application.deps.json
+C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\bin\Debug\netcoreapp2.2\web-application.runtimeconfig.json
+C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\bin\Debug\netcoreapp2.2\web-application.runtimeconfig.dev.json
+C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\bin\Debug\netcoreapp2.2\web-application.pdb
+C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\obj\Debug\netcoreapp2.2\web-application.csprojAssemblyReference.cache
+C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\obj\Debug\netcoreapp2.2\web-application.csproj.CoreCompileInputs.cache
+C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\obj\Debug\netcoreapp2.2\web-application.RazorAssemblyInfo.cache
+C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\obj\Debug\netcoreapp2.2\web-application.RazorAssemblyInfo.cs
+C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\obj\Debug\netcoreapp2.2\web-application.AssemblyInfoInputs.cache
+C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\obj\Debug\netcoreapp2.2\web-application.AssemblyInfo.cs
+C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\obj\Debug\netcoreapp2.2\web-application.RazorTargetAssemblyInfo.cache
+C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\obj\Debug\netcoreapp2.2\web-application.dll
+C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\obj\Debug\netcoreapp2.2\web-application.pdb

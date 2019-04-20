@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
+
+namespace web_application
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            // asp.net core application initialy starts as a Console Application
+            // Entry Point
+            CreateWebHostBuilder(args).Build().Run();
+        }
+
+        public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
+            WebHost.CreateDefaultBuilder(args) // creates a web-host
+                .UseStartup<Startup>();
+    }
+}
