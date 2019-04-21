@@ -29,13 +29,11 @@ namespace web_application
 
         }
 
+
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILogger<Startup> logger) // this method processes a request
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILogger<Startup> logger)
+        // this method processes a request
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
 
             // Run method doesn't call next middleware. It's a terminal middleware
             // Use method recieves 2 parameters: context and next middleware function
@@ -49,7 +47,7 @@ namespace web_application
 
             // Everything that happens BEFORE next() is a REQUEST and it travels from MW to MW
             // Everything that happens AFTER next() is a RESPONCE and it travels from MW to MW
-
+            /* 
             app.Use(async (context, next) =>
             {
                 //await context.Response.WriteAsync("Hello World!");
@@ -64,11 +62,30 @@ namespace web_application
                 logger.LogInformation("MW2: Incoming request");
                 await next();
                 logger.LogInformation("MW2: Outcoming request");
-            });
+            });*/
+
+
+
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage(options: new DeveloperExceptionPageOptions() { SourceCodeLineCount = 10 });
+            }
+
+
+            /* var fileServerOptions = new FileServerOptions();
+            fileServerOptions.DefaultFilesOptions.DefaultFileNames.Clear();
+            fileServerOptions.DefaultFilesOptions.DefaultFileNames.Add("index.html");*/ // this static file will be default and wil display in request localhost:port/
+
+            // app.UseDefaultFiles(defaultFilesOptions);
+            // app.UseStaticFiles(); // middleware for view html, css, js, images etc
+
+
+            app.UseFileServer();
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("MW3: Final middleware");
+                //throw new Exception("Error ^-^");
+                await context.Response.WriteAsync("Hello");
             });
         }
     }
