@@ -12,3 +12,12 @@ C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\obj\Deb
 C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\obj\Debug\netcoreapp2.2\web-application.RazorTargetAssemblyInfo.cache
 C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\obj\Debug\netcoreapp2.2\web-application.dll
 C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\obj\Debug\netcoreapp2.2\web-application.pdb
+C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\bin\Debug\netcoreapp2.2\web-application.Views.dll
+C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\bin\Debug\netcoreapp2.2\web-application.Views.pdb
+C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\obj\Debug\netcoreapp2.2\web-application.TagHelpers.input.cache
+C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\obj\Debug\netcoreapp2.2\web-application.TagHelpers.output.cache
+C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\obj\Debug\netcoreapp2.2\web-application.RazorCoreGenerate.cache
+C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\obj\Debug\netcoreapp2.2\Razor\Views\Home\Details.g.cshtml.cs
+C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\obj\Debug\netcoreapp2.2\web-application.RazorTargetAssemblyInfo.cs
+C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\obj\Debug\netcoreapp2.2\web-application.Views.pdb
+C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\obj\Debug\netcoreapp2.2\web-application.csproj.CopyComplete

@@ -1,0 +1,19 @@
+@using web_application.Models
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Details</title>
+  </head>
+  <body>
+    @{
+        var emp = ViewBag.Employee;
+    } 
+
+    <div>
+      <p>Name: @emp.Name</p>
+      <p>Email: @emp.Email</p>
+      <p>Department: @emp.Department</p>
+    </div>
+  </body>
+</html>

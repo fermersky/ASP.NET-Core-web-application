@@ -2757,5 +2757,11 @@
     "CSharpLanguageVersion": 703
   },
   "RootNamespace": "web_application",
-  "Documents": []
+  "Documents": [
+    {
+      "FilePath": "Views\\Home\\Details.cshtml",
+      "TargetPath": "Views\\Home\\Details.cshtml",
+      "FileKind": "mvc"
+    }
+  ]
 }
