@@ -1,8 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
 using web_application.Models;
+using web_application.ViewModels;
 
 namespace web_application.Controllers
 {
+    [Route("Home")]
     public class HomeController : Controller
     {
         private readonly IEmployeeRepository _employeeRepository;
@@ -11,15 +13,26 @@ namespace web_application.Controllers
         {
             _employeeRepository = employeeRepository;
         }
-        public string Index()
+
+        [Route("")]
+        [Route("Index")]
+        public ViewResult Index()
         {
-            return _employeeRepository.GetEmployee(1).Name;
+            var model = _employeeRepository.GetAllEmployes();
+            return View(model);
         }
 
-        public ViewResult Details()
+        [Route("Details/{id?}")]
+        public ViewResult Details(int? id)
         {
-            ViewBag.Employee = _employeeRepository.GetEmployee(2);
-            return View();
+            var viewModel = new HomeDetailsViewModel()
+            {
+                Employee = _employeeRepository.GetEmployee(id ?? 1),
+                PageTitle = "Employee details"
+            };
+
+            ViewBag.Employee = _employeeRepository.GetEmployee(id ?? 1);
+            return View(viewModel);
         }
     }
 }

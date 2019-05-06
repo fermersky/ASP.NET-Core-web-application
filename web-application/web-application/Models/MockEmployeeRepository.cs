@@ -16,9 +16,15 @@ namespace web_application.Models
                 new Employee() { Id = 3, Name = "Michael", Email = "shumah@gmail.com", Department = "F1" }
             };
         }
+
+        public IEnumerable<Employee> GetAllEmployes()
+        {
+            return _empoyeeList.ToList();
+        }
+
         public Employee GetEmployee(int id)
         {
-            return _empoyeeList.Where(e => e.Id == id).FirstOrDefault();    
+            return _empoyeeList.Where(e => e.Id == id).FirstOrDefault();
         }
     }
 }

@@ -1,0 +1,28 @@
+@model IEnumerable<Employee>
+
+@{
+    ViewBag.PageTitle = "Index"; // transmitting to Layout
+}
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Department</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var e in Model) 
+            {
+                <tr>
+                    <td>@e.Id</td>
+                    <td>@e.Name</td>
+                    <td>@e.Department</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    @section Scripts {
+        <script src="~/js/custom.js"></script>
+    }    

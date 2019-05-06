@@ -35,12 +35,10 @@ namespace web_application
             // Method AddSingleton setups implementation of the IEmployeeRepository
         }
 
-
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILogger<Startup> logger)
         // this method processes a request
         {
-
             // Run method doesn't call next middleware. It's a terminal middleware
             // Use method recieves 2 parameters: context and next middleware function
 
@@ -85,13 +83,21 @@ namespace web_application
             // app.UseDefaultFiles(defaultFilesOptions);
             // app.UseStaticFiles(); // middleware for view html, css, js, images etc
 
-
             app.UseStaticFiles();
-            app.UseMvcWithDefaultRoute();
+            // app.UseMvcWithDefaultRoute();
+
+            // app.UseMvc(configureRoutes: routes =>
+            // {
+            //     routes.MapRoute(name: "default", template: "{controller=Home}/{action=Index}/{id?}");
+            // });
+
+            app.UseMvc();
+
+
 
             app.Run(async (context) =>
             {
-                //throw new Exception("Error ^-^");
+                // throw new Exception("Error ^-^");
                 await context.Response.WriteAsync("Hello World!");
             });
         }

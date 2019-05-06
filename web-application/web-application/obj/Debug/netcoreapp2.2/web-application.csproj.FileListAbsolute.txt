@@ -21,3 +21,8 @@ C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\obj\Deb
 C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\obj\Debug\netcoreapp2.2\web-application.RazorTargetAssemblyInfo.cs
 C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\obj\Debug\netcoreapp2.2\web-application.Views.pdb
 C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\obj\Debug\netcoreapp2.2\web-application.csproj.CopyComplete
+C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\obj\Debug\netcoreapp2.2\Razor\Views\Home\_ViewStart.g.cshtml.cs
+C:\Users\Данил\Desktop\asp.net-core\web-application\web-application\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
